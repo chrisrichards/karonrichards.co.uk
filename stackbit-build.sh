@@ -11,6 +11,6 @@ else
     npx @stackbit/stackbit-pull --stackbit-pull-api-url=https://api.stackbit.com/pull/5e821c9e399081001bba7e8b 
 fi
 curl -s -X POST https://api.stackbit.com/project/5e821c9e399081001bba7e8b/webhook/build/ssgbuild > /dev/null
-cd exampleSite && hugo --gc --baseURL "/" --themesDir ../.. && cd ..
+hugo --gc --baseURL "/"
 
 curl -s -X POST https://api.stackbit.com/project/5e821c9e399081001bba7e8b/webhook/build/publish > /dev/null
