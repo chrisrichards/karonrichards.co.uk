@@ -28,31 +28,11 @@ sections:
   templates:
   - basicpage
 - type: directory
-  path: exampleSite/content/services
-  label: Service
+  path: content/blog
+  label: Blog
   create: all
   match: "**/*"
-  exclude: "{_index.md,services/_index.md}"
-  templates:
-  - service
-- type: document
-  path: exampleSite/content/services/_index.md
-  label: Services Overview
-  templates:
-  - services
-- type: directory
-  path: exampleSite/content/team
-  label: Team
-  create: all
-  match: "**/*"
-  exclude: "{_index.md,team/_index.md}"
-  templates:
-  - team
-- type: document
-  path: exampleSite/content/team/_index.md
-  label: Team Overview
-  templates:
-  - teams
+  exclude: "{_index.md,blog/_index.md}"
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''

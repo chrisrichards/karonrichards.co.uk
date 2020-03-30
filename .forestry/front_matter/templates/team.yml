@@ -26,6 +26,3 @@ fields:
 - type: number
   name: weight
   label: Weight
-pages:
-- exampleSite/content/team/peter-van-eijk.md
-- exampleSite/content/team/sage-kirk.md
