@@ -1,7 +1,7 @@
 ---
 new_page_extension: md
 auto_deploy: false
-admin_path: exampleSite/static/admin
+admin_path: static/admin
 webhook_url: https://api.stackbit.com/project/5e821c9e399081001bba7e8b/webhook/forestry
 sections:
 - type: document
