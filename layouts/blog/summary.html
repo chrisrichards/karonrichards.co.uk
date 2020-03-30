@@ -1,0 +1,11 @@
+<div class="blog blog-summary">
+  <div class="blog-content">
+    {{ if .Date }}
+      <small class="text-muted">{{ .Date.Format "January 2, 2006" }}</small>
+    {{ end }}
+    <h2 class="blog-title">
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </h2>
+    <p>{{ .Content | plainify | htmlUnescape | truncate 120 "…" }}</p>
+  </div>
+</div>

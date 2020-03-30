@@ -1,17 +1,25 @@
-title = "Hugo Serif Theme"
-baseURL = "www.example.com"
-languageCode = "en-us"
-themesDir = "../.."
-theme = "hugo-serif-theme"
+baseURL = "https://karonrichards.co.uk/"
+languageCode = "en-gb"
+title = "Karon Richards"
+
+MetaDataFormat = "yaml"
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+Paginate = 10
+googleAnalytics = ""
+enableRobotsTXT = true
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
 
 [params]
-google_analytics_id = ""
-google_tag_manager_id = ""
 
   [params.logo]
   standard = "images/logo.svg"
   mobile = "images/logo-mobile.svg"
-  alt = "Serif - A Hugo Business Theme"
+  alt = "Karon Richards"
 
   [params.homepage_meta_tags]
   meta_description = "Serif is a modern business theme for Hugo. It contains content types for the archetypical business website. The theme is fully responsive, blazing fast and artfully illustrated."
@@ -23,23 +31,3 @@ google_tag_manager_id = ""
   meta_twitter_card = "summary"
   meta_twitter_site = "@zerostaticio"
   meta_twitter_creator = "@zerostaticio"
-
-[[menu.main]]
-name = "Services"
-url = "/services/"
-weight = 1
-
-[[menu.main]]
-name = "Team"
-url = "/team/"
-weight = 2
-
-[[menu.footer]]
-name = "Home"
-url = "/"
-weight = 1
-
-[[menu.footer]]
-name = "Contact"
-url = "/contact/"
-weight = 2
