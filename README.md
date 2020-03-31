@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/68e19549-bfca-4766-972a-686bf824ba25/deploy-status)](https://app.netlify.com/sites/distracted-brown-25f208/deploys)
+
 # Hugo Serif Theme
 
 Serif is a modern business theme for Hugo. It contains content types for the archetypical business website. The theme is fully responsive, blazing fast and artfully illustrated.
