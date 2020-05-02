@@ -6,5 +6,3 @@ intro_image_hide_on_mobile: false
 
 ---
 # Karon Richards
-
-## 
