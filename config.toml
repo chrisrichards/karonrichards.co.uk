@@ -15,6 +15,7 @@ enableRobotsTXT = true
   filename = "sitemap.xml"
 
 [params]
+  title = "Karon Richards"
 
   [params.logo]
   standard = "images/logo.svg"
