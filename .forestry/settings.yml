@@ -28,6 +28,12 @@ sections:
   templates:
   - basicpage
 - type: directory
+  path: content
+  label: Pages
+  create: all
+  match: "**/*"
+  exclude: "{_index.md,blog/*}"
+- type: directory
   path: content/blog
   label: Blog
   create: all
