@@ -9,7 +9,6 @@ sections:
   label: Pages
   create: documents
   match: "*"
-  exclude: _index.md
 - type: document
   path: exampleSite/config.toml
   label: Config
