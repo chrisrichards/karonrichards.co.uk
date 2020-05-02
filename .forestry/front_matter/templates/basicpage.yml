@@ -21,6 +21,3 @@ fields:
     options:
     - main
     - footer
-pages:
-- exampleSite/content/about.md
-- exampleSite/content/contact.md
