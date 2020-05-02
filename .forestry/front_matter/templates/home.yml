@@ -20,3 +20,5 @@ fields:
   name: intro_image_hide_on_mobile
   label: Hide the intro image on mobile
   description: Hide the intro image on mobile screen sizes
+pages:
+- content/blog/the-corona-diaries.md
